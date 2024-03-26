@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
+
 .backround-container {
   position: relative;
   width: 100%;
@@ -11,5 +13,34 @@
   left: 0;
   width: 100%;
   height: 100%;
+  z-index: 0;
   object-fit: cover;
+}
+
+.landing-text-container {
+  position: absolute;
+  text-align: left;
+  top: 0%;
+  left: 50%;
+  z-index: 1;
+}
+
+.title {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 100px;
+  margin-bottom: 10px;
+
+  color: #336089;
+}
+
+.flavour-text {
+  color: #336089;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+
+  padding-right: 25%;
 }
