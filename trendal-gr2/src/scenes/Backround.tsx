@@ -1,6 +1,8 @@
 import backroundPng from "/src/assets/image 2.png";
 import bBlur from "/src/assets/Blur.png";
 import Search from "./Search";
+import Filters from "./Filters";
+import Guide from "./Guide";
 import "/src/index.css";
 
 const blurB = () => {
@@ -18,6 +20,10 @@ const blurB = () => {
           If you’re new or need a reminder, explore the “Filter Guide” below.
         </h3>
         <Search></Search>
+        <div className="button-container">
+          <Filters></Filters>
+          <Guide></Guide>
+        </div>
       </div>
     </div>
   );

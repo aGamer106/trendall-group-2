@@ -23,6 +23,7 @@
   top: 0%;
   left: 50%;
   z-index: 1;
+  cursor: default;
 }
 
 .title {
@@ -43,4 +44,78 @@
   font-size: 25px;
 
   padding-right: 25%;
+}
+
+.search-bar-container {
+  position: relative;
+  background-image: url("src/assets/Searchbar.png");
+  background-repeat: no-repeat;
+  margin-top: 90px;
+  height: 100px;
+  width: 899px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar-container input[type="text"] {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  text-align: right;
+  font-family: "Merriweather", serif;
+  color: #336089;
+  font-size: 40px;
+  margin-left: auto;
+  padding-right: 40px;
+}
+
+.search-button {
+  position: absolute;
+  background-image: url("src/assets/Search.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  height: 70px;
+  width: 70px;
+  left: 40px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  filter: brightness(70%);
+  transform: scale(1.1);
+}
+
+.button-container {
+  position: relative;
+  margin-top: 15px;
+  margin-left: 40px;
+  align-items: center;
+  display: flex;
+}
+
+.filter-button,
+.guide-button {
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.guide-button:hover {
+  filter: brightness(70%);
+  transform: scale(1.1);
+}
+
+.filter-button {
+  background-image: url("src/assets/Filters.png");
+}
+
+.guide-button {
+  background-image: url("src/assets/Details.png");
 }
