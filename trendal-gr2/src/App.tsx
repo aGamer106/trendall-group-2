@@ -1,4 +1,4 @@
-import LandingBackrounds from "./scenes/LandingBackrounds/blurB";
+import LandingBackrounds from "./scenes/Backround";
 
 function App() {
   return (
