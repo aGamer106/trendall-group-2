@@ -7,7 +7,7 @@ import "/src/index.css";
 
 const blurB = () => {
   return (
-    <div>
+    <div className="wrapper">
       <img alt="backround" src={backroundPng} className="backroundImg"></img>
       <img alt="backroundLayer" src={bBlur} className="backroungFade"></img>
       <div className="landing-text-container">
