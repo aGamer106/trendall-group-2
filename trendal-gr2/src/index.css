@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
 
-.wrapper {
-  display: flex; /* Use flexbox for layout */
-  flex-direction: column; /* Arrange items vertically */
-  justify-content: center; /* Center items vertically */
-  align-items: center; /* Center items horizontally */
-}
-
 .backround-container {
   position: relative;
   width: 100%;
@@ -27,9 +20,8 @@
 .landing-text-container {
   position: absolute;
   text-align: left;
-  top: 35%; /* Adjust the top position */
-  left: 75%; /* Adjust the left position */
-  transform: translate(-50%, -50%); /* Center the container */
+  top: 0%;
+  left: 50%;
   z-index: 1;
   cursor: default;
 }
